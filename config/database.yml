@@ -1,0 +1,9 @@
+development:
+  adapter: sqlite3
+  encoding: utf-8
+  database: db/tg_bot_dev.sqlite3
+
+test:
+  adapter: 'sqlite3'
+  encoding: utf-8
+  database: db/tg_bot_test.sqlite3

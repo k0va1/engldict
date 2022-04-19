@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'bundler'
+
+require_relative "../config/app"
+require "irb"
+
+Bundler.setup
+IRB.start
